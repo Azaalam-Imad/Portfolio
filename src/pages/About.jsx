@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <section id="about" className="py-20 px-4 sm:px-6 md:px-12 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
+    <section id="about" className=" min-h-[100vh] py-20 px-4 sm:px-6 md:px-12 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
       <div className="max-w-6xl mx-auto text-center">
         <motion.h2
           initial={{ opacity: 0, y: -40 }}
